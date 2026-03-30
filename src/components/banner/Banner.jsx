@@ -47,7 +47,7 @@ const Banner = () => {
             <img
               className="relative h-130 w-auto object-contain rounded-2xl"
               src={BannerImage}
-              alt="AI Models Banner"
+              alt=" "
             />
           </div>
         </div>
