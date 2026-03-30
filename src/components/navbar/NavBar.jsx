@@ -3,12 +3,12 @@ import ShoopingCart from '../../assets/products/shopping-cart.png'
 
 const NavBar = () => {
     return (
-      <div className=''>
-   <div className='  mb-20'>
-       <div className="navbar bg-base-100 shadow-sm">
+      <div className='shadow-sm'>
+   <div className=' w-9/12 mx-auto mb-20'>
+       <div className="navbar bg-base-100 ">
   <div className="navbar-start">
 
-    <a className="text-[#4F39F6] text-3xl font-bold px-20">DigiTools</a>
+    <a className="text-[#4F39F6] text-3xl font-bold ">DigiTools</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -24,7 +24,7 @@ const NavBar = () => {
       ><a>FAQ</a></li>
     </ul>
   </div>
-  <div className="navbar-end gap-2 px-20">
+  <div className="navbar-end gap-2 ">
     <img src={ShoopingCart} alt="" />
     <p className='text-[16px] text-semibold text-[#101727]'
     >Login</p>
