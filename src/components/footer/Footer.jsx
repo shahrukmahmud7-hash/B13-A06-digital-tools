@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 text-center md:text-left ">
 
           {/* Logo */}
           <div className="md:col-span-3">
@@ -58,21 +58,22 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white">Contact</a></li>
             </ul>
           </div>
-          <div className="md:col-span-3">
+          {/* Social Links */}
+          <div className="md:col-span-3 flex flex-col items-center md:items-start">
             <h3 className="text-red-400 font-semibold mb-6 text-lg">Social Links</h3>
             <ul >
               <div className="flex gap-4">
-                <p className='rounded-full w-10 h-10   bg-white'>
+                <div className='rounded-full w-10 h-10 bg-white  flex items-center justify-center'>
                  <RiInstagramFill className='h-10 w-10 p-2 ' />
-               </p>
+               </div>
 
-               <p className='rounded-full w-10 h-10   bg-white'>
+               <div className='rounded-full w-10 h-10   bg-white flex items-center justify-center'>
                 <FaFacebookSquare className='h-10 w-10 p-2 ' />
-               </p>
+               </div>
 
-                <p className='rounded-full w-10 h-10   bg-white'>
+                <div className='rounded-full w-10 h-10   bg-white flex items-center justify-center'>
                 <FaSquareXTwitter className='h-10 w-10 p-2 ' />
-               </p>
+               </div>
                 
               
                 {/* <img src="" alt="" />
