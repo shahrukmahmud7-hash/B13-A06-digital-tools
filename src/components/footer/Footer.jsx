@@ -28,7 +28,7 @@ const Footer = () => {
 
           {/* Product */}
           <div className="md:col-span-2">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Product</h3>
+            <h3 className="text-white font-semibold mb-6 text-lg">Product</h3>
             <ul className="space-y-4 text-zinc-400">
               <li><a href="#" className="hover:text-white">Features</a></li>
               <li><a href="#" className="hover:text-white">Pricing</a></li>
@@ -39,7 +39,7 @@ const Footer = () => {
 
           {/* Company */}
           <div className="md:col-span-2">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Company</h3>
+            <h3 className="text-white font-semibold mb-6 text-lg">Company</h3>
             <ul className="space-y-4 text-zinc-400">
               <li><a href="#" className="hover:text-white">About</a></li>
               <li><a href="#" className="hover:text-white">Blog</a></li>
@@ -50,7 +50,7 @@ const Footer = () => {
 
           {/* Resources */}
           <div className="md:col-span-2">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Resources</h3>
+            <h3 className="text-white font-semibold mb-6 text-lg">Resources</h3>
             <ul className="space-y-4 text-zinc-400">
               <li><a href="#" className="hover:text-white">Documentation</a></li>
               <li><a href="#" className="hover:text-white">Help Center</a></li>
@@ -60,7 +60,7 @@ const Footer = () => {
           </div>
           {/* Social Links */}
           <div className="md:col-span-3 flex flex-col items-center md:items-start">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Social Links</h3>
+            <h3 className="text-white font-semibold mb-6 text-lg">Social Links</h3>
             <ul >
               <div className="flex gap-4">
                 <div className='rounded-full w-10 h-10 bg-white  flex items-center justify-center'>

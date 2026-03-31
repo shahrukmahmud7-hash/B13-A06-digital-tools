@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "AI Resume Builder",
+    "description": "Create professional resumes with AI assistance and ATS optimization.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Website Builder Pro",
+    "description": "Build responsive websites easily without coding skills.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best-seller",
+    "tagType": "Best Seller",
+    "features": ["Drag & drop editor", "Free hosting", "Custom domain support"],
+    "icon": "🌐"
+  },
+  {
+    "id": 3,
+    "name": "Social Media Scheduler",
+    "description": "Schedule and manage all your social media posts in one place.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "New",
+    "features": ["Auto scheduling", "Multi-platform support", "Analytics dashboard"],
+    "icon": "📅"
+  },
+  {
+    "id": 4,
+    "name": "Graphic Design Toolkit",
+    "description": "Design stunning graphics with ready-made templates.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": ["500+ templates", "Stock images", "Easy editing tools"],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "SEO Optimization Tool",
+    "description": "Improve your website ranking with smart SEO tools.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "best-seller",
+    "tagType": "Best Seller",
+    "features": ["Keyword research", "Site audit", "Competitor analysis"],
+    "icon": "📊"
+  },
+  {
+    "id": 6,
+    "name": "Email Marketing Pro",
+    "description": "Create and send powerful email campaigns.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "New",
+    "features": ["Email templates", "Automation", "Analytics tracking"],
+    "icon": "✉️"
+  },
+  {
+    "id": 7,
+    "name": "Cloud Storage Plus",
+    "description": "Secure and fast cloud storage for your files.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": ["100GB storage", "File sharing", "Secure backup"],
+    "icon": "☁️"
+  },
+  {
+    "id": 8,
+    "name": "Online Course Platform",
+    "description": "Create and sell your own online courses.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "best-seller",
+    "tagType": "Best Seller",
+    "features": ["Video hosting", "Student management", "Payment integration"],
+    "icon": "🎓"
+  },
+  {
+    "id": 9,
+    "name": "Password Manager",
+    "description": "Store and manage all your passwords securely.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "New",
+    "features": ["Auto-fill passwords", "Encrypted storage", "Cross-device sync"],
+    "icon": "🔐"
+  },
+  {
+    "id": 10,
+    "name": "Video Editing Studio",
+    "description": "Edit videos like a pro with advanced tools.",
+    "price": 45,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": ["4K editing", "Transitions & effects", "Audio enhancement"],
+    "icon": "🎬"
+  }
+]
