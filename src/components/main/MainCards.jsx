@@ -1,12 +1,13 @@
 import { useState } from "react";
 
 
-const MainCards = ({ main }) => {
+const MainCards = ({ main , carts , setCarts }) => {
 
     const [addToCart , setAddToCart] = useState(false)
 
     const handleAddToCart = () => {
         setAddToCart(true);
+        setCarts([...carts , main])
     }
 
     return (
@@ -15,7 +16,7 @@ const MainCards = ({ main }) => {
       
    
       <div className='flex justify-between items-center mb-4'>
-        <span className='text-4xl'>{main.icon}</span> {/* emoji */}
+        <span className='text-4xl p-2 bg-gradient-to-r from-white to-slate-200 rounded-full'>{main.icon}</span> {/* emoji */}
         <span className='bg-blue-100 text-blue-700 px-2 py-1 
         rounded-full text-sm'>{main.tagType}</span>
       </div>
