@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 
 const MainCards = ({ main , carts , setCarts }) => {
@@ -7,7 +8,16 @@ const MainCards = ({ main , carts , setCarts }) => {
 
     const handleAddToCart = () => {
         setAddToCart(true);
+         
+          const isFound = carts.find(cart => cart.id === main.id);
+
+          if(isFound) {
+           toast.error("Item already in cart")
+           return 
+          }
+
         setCarts([...carts , main])
+        toast.success("Item added to cart")
     }
 
     return (
@@ -47,4 +57,4 @@ const MainCards = ({ main , carts , setCarts }) => {
     );
 };
 
-export default MainCards;
+export default MainCards; 

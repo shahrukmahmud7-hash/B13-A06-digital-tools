@@ -40,7 +40,7 @@ function App() {
          </div> 
 
 
-     <div className="tabs justify-center gap-4 bg-transparent mb-6">
+     <div className="tabs justify-center gap-4 bg-transparent mb-6 ">
 
       <input
        type="radio"
@@ -59,7 +59,7 @@ function App() {
        className="tab rounded-full w-40
       checked:bg-[#4F39F6] checked:text-white 
       bg-white text-black border transition"
-        aria-label="Cart"
+        aria-label={`cart (${carts.length})`}
         onClick={()=>setActiveTab("cart")}
       />
 

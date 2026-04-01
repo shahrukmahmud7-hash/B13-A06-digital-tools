@@ -1,5 +1,6 @@
 import React from 'react';
 import { LuShoppingCart } from 'react-icons/lu';
+import { toast } from 'react-toastify';
 
 const Cart = ({ carts , setCarts }) => {
   
@@ -8,17 +9,20 @@ const Cart = ({ carts , setCarts }) => {
   
     const handleProceedCheckout = () => {
         setCarts([])
+          toast.success("Proceed Checkout successful")
     }
 
     const handleDelete = (cart) => {
        const filteredCartsArray = carts.filter(b =>
         b.id !== cart.id)
         setCarts(filteredCartsArray)
+          toast.success("Item deleted")
     }
 
     return (
-        <div className='bg-gradient-to-r from-slate-100
-         to-slate-100 py-20 rounded-2xl'>
+        <div className='bg-gradient-to-r from-slate-100 to-slate-100 py-20 rounded-2xl max-w-7xl mx-auto  mb-12
+        '>
+       
         <h1 className='text-2xl font-bold px-6 mt-6'>
         Your Cart
        </h1>
@@ -62,9 +66,9 @@ const Cart = ({ carts , setCarts }) => {
       <div className='space-y-5 mt-5 px-6'>
 
         <div className='flex justify-between
-         bg-black text-white text-2xl p-5 rounded-lg'>
+         text-[##627382] text-3xl p-5'>
           <div>Total:</div>
-          <div>${totalPrice}</div>
+          <div className='text-[#101727] font-bold '>${totalPrice}</div>
         </div>
 
         <button onClick={ handleProceedCheckout} className='w-full py-4 bg-[#4F39F6]

@@ -1,16 +1,28 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Premium Digital Tools Store
+ # Description
 
-Currently, two official plugins are available:
+This project is a modern Digital Tools Buying Website where users can explore, select, and purchase various digital products.
+It provides a smooth user experience with a clean design, interactive cart system, and real-time updates. Users can easily add products to the cart, 
+remove items, and complete the checkout process.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Technologies Used
+React.js
+Tailwind CSS
+DaisyUI
+JavaScript (ES6+)
+React-Toastify
+JSON (Product Data)
 
-## React Compiler
+# Features
+ 1. Add to Cart System
+Users can add products by clicking the Buy Now button
+Cart count updates instantly in the navbar....
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ 2. Remove Product
+Users can remove individual products from the cart
+Cart updates dynamically...
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Checkout Functionality
+“Proceed to Checkout” button clears all cart items
+Cart resets to empty state....
