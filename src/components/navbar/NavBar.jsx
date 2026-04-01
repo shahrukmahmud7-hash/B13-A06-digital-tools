@@ -1,9 +1,9 @@
 import React from 'react';
 import ShoopingCart from '../../assets/products/shopping-cart.png'
 
-const NavBar = () => {
+const NavBar = ({ carts }) => {
     return (
-      <div className='shadow-sm sticky top-0 z-50 h-full'>
+      <div className='shadow-sm bg-base-100 sticky top-0 z-50 h-full'>
    <div className=' w-9/12 mx-auto mb-20'>
        <div className="navbar bg-base-100 ">
   <div className="navbar-start">
@@ -25,7 +25,10 @@ const NavBar = () => {
     </ul>
   </div>
   <div className="navbar-end gap-2 ">
+    <div className='relative mr-8'>
+     <p className='absolute -top-3 -right-5 bg-rose-500 text-white p-1.5 text-sm font-medium m-0 w-5 h-5 flex items-center justify-center rounded-full'>{`${carts.length}`}</p>
     <img src={ShoopingCart} alt="" />
+    </div>
     <p className='text-[16px] text-semibold text-[#101727]'
     >Login</p>
     <button className="btn  text-white bg-gradient-to-r 

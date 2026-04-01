@@ -63,14 +63,14 @@ const Body = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-white shadow-xl border border-slate-100 
+          <div className="bg-white shadow-xl border border-slate-100 flex flex-col items-center justify-center
            relative pt-15 pb-15 px-8 rounded-2xl space-y-5">
             <div className="absolute top-5 right-5 bg-indigo-600 text-white 
             w-8 h-8 flex items-center justify-center rounded-full text-xs font-bold">
               03
             </div>
-            <div className='flex justify-center items-center'>
-                <img src={Rocket} alt="Rocket" className='w-15 h-15 rounded-full p-3 bg-[#4f39f63b]' />
+            <div className='flex justify-center items-center bg-[#4f39f63b] w-15 h-15 rounded-full '>
+                <img src={Rocket} alt="Rocket" className='w-15 h-15  p-3' />
              </div>
 
             <div className="text-center">

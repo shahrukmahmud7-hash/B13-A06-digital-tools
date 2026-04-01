@@ -48,7 +48,7 @@ const MainCards = ({ main , carts , setCarts }) => {
        ))}
    </ul>
         <button onClick={handleAddToCart} className='bg-blue-600 text-white px-4 py-2 mt-4
-        rounded-full w-full hover:bg-blue-700'>
+        rounded-full w-full  active:bg-red-700 focus:bg-red-700'>
        {addToCart ? "Add To Cart" : "Buy Now"}
         </button>
       </div>
