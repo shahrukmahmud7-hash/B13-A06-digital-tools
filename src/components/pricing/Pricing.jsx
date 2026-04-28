@@ -60,7 +60,7 @@ const Pricing = () => {
     </ul>
     <div className=''>
       <div className="mt-14">
-      <button className="btn btn-primary btn-block rounded-full">Get Started Free</button>
+      <button className="btn btn-primary btn-block rounded-full">Get Started Free Only </button>
     </div>
     </div>
   </div>
@@ -71,7 +71,7 @@ const Pricing = () => {
   <div className="card-body flex flex-col">
     <p className='absolute -top-3 left-1/2 -translate-x-1/2 bg-[#FEF3C6] text-[#BB4D00] 
     text-xs px-4 py-2 rounded-full font-semibold shadow'>Most Popular</p>
-    <span className="text-3xl font-bold text-white ">Pro</span>
+    <span className="text-3xl font-bold text-white ">Pro</span>git 
     <div className="">
       <h2 className="text-[#ffffff93]">Best for professionals</h2>
 

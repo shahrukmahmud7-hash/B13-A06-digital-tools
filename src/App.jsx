@@ -59,7 +59,7 @@ function App() {
        className="tab rounded-full w-40
       checked:bg-[#4F39F6] checked:text-white 
       bg-white text-black border transition"
-        aria-label={`cart (${carts.length})`}
+        aria-label={`Cart (${carts.length})`}
         onClick={()=>setActiveTab("cart")}
       />
 
